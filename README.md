@@ -7,6 +7,7 @@ A Flutter plugin for Opus audio codec encoding and decoding using FFI (Foreign F
 - ✅ Opus audio decoding
 - ✅ Opus audio encoding
 - ✅ iOS support with static library
+- ✅ Android support with shared library 
 - ✅ Pure Dart API using FFI
 - ✅ Memory efficient
 - ✅ Low latency
