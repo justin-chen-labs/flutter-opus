@@ -30,7 +30,8 @@ class _OpusDemoPageState extends State<OpusDemoPage> {
     const frameSize = 320; // 20ms frame @ 16kHz
 
     // 1. 创建编码器
-    final encoder = OpusEncoder.create(sampleRate: sampleRate, channels: channels);
+    final encoder =
+        OpusEncoder.create(sampleRate: sampleRate, channels: channels);
     if (encoder == null) {
       _appendLog('Failed to create encoder');
       return;
@@ -40,7 +41,8 @@ class _OpusDemoPageState extends State<OpusDemoPage> {
     _appendLog('Encoder created.');
 
     // 2. 创建解码器
-    final decoder = OpusDecoder.create(sampleRate: sampleRate, channels: channels);
+    final decoder =
+        OpusDecoder.create(sampleRate: sampleRate, channels: channels);
     if (decoder == null) {
       _appendLog('Failed to create decoder');
       encoder.dispose();
@@ -76,7 +78,8 @@ class _OpusDemoPageState extends State<OpusDemoPage> {
       // 6. 打印前10个样本值
       _appendLog('First 10 decoded samples:');
       for (int i = 0; i < 10 * channels; i++) {
-        int sample = decodedPcm[i * 2] | (decodedPcm[i * 2 + 1] << 8); // Little-endian
+        int sample =
+            decodedPcm[i * 2] | (decodedPcm[i * 2 + 1] << 8); // Little-endian
         _appendLog('Sample $i: $sample');
       }
     } catch (e) {

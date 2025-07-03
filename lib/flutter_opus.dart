@@ -1,4 +1,4 @@
-library flutter_opus;
+library;
 
 import 'package:flutter/services.dart';
 

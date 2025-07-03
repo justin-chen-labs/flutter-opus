@@ -3,7 +3,7 @@ description: A Flutter plugin for Opus audio codec encoding and decoding using F
 repository: https://github.com/justin-chen-labs/flutter-opus
 issue_tracker: https://github.com/justin-chen-labs/flutter-opus/issues
 homepage: https://github.com/justin-chen-labs/flutter-opus
-version: 1.0.0
+version: 1.0.1
 
 environment:
   sdk: ^3.6.1
