@@ -1,3 +1,8 @@
+## 1.0.3
+* Update version to 1.0.3
+* Update pubspec.yaml
+* Update README.md
+
 ## 1.0.2
 * Add macOS support for Flutter plugin.
 
