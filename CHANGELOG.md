@@ -1,3 +1,6 @@
+## 1.0.2
+* Add macOS support for Flutter plugin.
+
 ## 1.0.1
 * TODO: dart format .
 * Add complain
