@@ -19,7 +19,7 @@ Add this to your package's `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  flutter_opus: ^1.0.0
+  flutter_opus: ^latest
 ```
 
 ## Usage
